@@ -86,7 +86,7 @@ text-decoration: none;
 
 /* 2 */
 .aboutMe {
-	height: 540px;
+	height: 500px;
 }
 .aboutPohto {
     float: left;
@@ -193,10 +193,16 @@ text-decoration: none;
 .skills {
 	background: #fdfcfd;
 	position: relative;
-	height: 1250px;
+	height: 750px;
 }
-
-.skillText > .skill {
+.skillText {
+    margin-top: 35px;
+	height: 175px;
+}
+.skillContents {
+	margin-top: 35px;
+}
+.skillContents > .skill {
 	font-weight: bold;
 	font-family: monospace;
 	font-size: 36px;
@@ -221,6 +227,107 @@ text-decoration: none;
 	margin-top: 70px;
 	margin-left: 260px;
 }
+.skillPhotos{
+	height: 600px;
+	
+	margin-left: 260px;
+	margin-right: 260px;
+
+}
+.topSkill{
+	height: 300px;
+	margin-bottom: 18px;
+}
+.bottomSkill{
+	height: 300px;
+	
+}
+.skillPhoto{
+	width: 49%;
+	height: 300px;
+	background-image: url(./skill.jpg);
+    background-position: center center;
+    background-size: cover;
+    float: left;
+    border-radius: 15px;
+}
+.skillPhoto1{
+	width: 49%;
+	height: 300px;
+	background-image: url(./skill.jpg);
+    background-position: center center;
+    background-size: cover;
+    float: right;
+    border-radius: 15px;
+}
+.skillPhoto2{
+	width: 49%;
+	height: 300px;
+	background-image: url(./skill.jpg);
+    background-position: center center;
+    background-size: cover;
+    float: left;
+    border-radius: 15px;
+}
+.skillPhoto3{
+	width: 49%;
+	height: 300px;
+	background-image: url(./skill.jpg);
+    background-position: center center;
+    background-size: cover;
+    float: right;
+    border-radius: 15px;
+}
+.mask1{
+	height: 300px;
+	border-radius: 15px;
+    background: linear-gradient(to right, rgba(110,222,250,0.95) 0%,rgba(103,206,249,0.95) 50%,rgba(103, 204, 247, 0.95) 51%,rgba(57, 169, 243, 0.95) 100%);
+}
+.mask2 {
+	height: 300px;
+	border-radius: 15px;
+    background:linear-gradient(to right, rgba(255,214,94,0.95) 0%,rgba(255,214,94,0.95) 50%,rgba(255,214,94,0.95) 51%,rgba(254,191,4,0.95) 100%);
+}
+.mask3 {
+    height: 300px;
+	border-radius: 15px;
+    background:linear-gradient(to right, rgba(224,97,175,0.95) 0%,rgba(218,101,189,0.95) 50%,rgba(218,101,189,0.95) 51%,rgba(203,104,210,0.95) 100%);
+}
+.mask4 {
+height: 300px;
+	border-radius: 15px;
+    background: linear-gradient(to right, rgba(118,247,246,0.95) 0%,rgba(80,244,242,0.95) 50%,rgba(80,244,242,0.95) 51%,rgba(0,242,238,0.95) 100%);
+}
+.skillContent{
+    border: 1px solid red;
+    margin-top: -260px;
+}
+.icon{ 
+color: white;
+text-align: center;
+font-size: 40px;
+margin-left: 20px;
+width: 1em; height: 1em;
+       vertical-align: -0.15em;
+       fill: currentColor;
+       margin-bottom: 10px;
+ }
+.skillName{
+	font-weight: bold;
+	font-size: 22px;
+	color: white;
+	margin-left: 20px;
+    margin-bottom: 15px;
+   
+}
+.skillNameContent{
+
+}
+
+
+
+
+
 
 
 
