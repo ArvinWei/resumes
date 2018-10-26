@@ -1,6 +1,7 @@
 body {
 margin: 0;
 padding: 0;
+
 }
 * {
 margin: 0;
@@ -10,43 +11,53 @@ a{
 color:inherit;
 text-decoration: none;
 }
+.clearfix {
+	content: '';
+	display: inline-block;
+	clear: both;
+}
 /* 1 */
 .siteAbout {
 	background: #FDFCFD;
 	max-height: 624px;
+}
+.background {
+	display: flex;
 	
 }
-.background > .witer {
+.content > .witer {
 	width: 63.5%;
-	float: left;
-	background: #555;
+	float: right;
 	height: 624px;
 	background: #FDFCFD;
 }
-.background > .blue {
+.content > .blue {
 	width: 36.5%;
-	float: right;
+	float: left;
 	background: #999;
 	height: 624px;
 	background: #29fbf8;
 }
 .content {
-	position: relative;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
 	height: 624px;
+	align-items: center;
 }
 .headPhoto {
 	float: right;
-	height: 624px;
+	max-height: 624px;
     background-image: url(./head.png);
     background-size: cover;
-    margin-left: 50%;
-    position: absolute;
+    /*margin-left: 50%;*/
+  
 }
 .content > .headText {
 	float: left;
-	margin-top: 210px;
 	margin-left: 20%;
-	position: absolute;
+	flex-direction: column;
+
 }
 .content > .headText > .hello {
 	color: #8A8FA3;
@@ -55,7 +66,7 @@ text-decoration: none;
 }
 .content > .headText > .name {
 	color: #29fbf8;
-	font-weight: 900;
+	font-weight: bold;
 	font-size: 40px;
 	margin-bottom: 10px;
 }
@@ -85,42 +96,44 @@ text-decoration: none;
 }
 
 /* 2 */
+.aboutMes {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 140px;
+}
 .aboutMe {
+	width: 800px;
 	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+
+	
 }
 .aboutPohto {
     float: left;
-    margin-left: 20%;
 }
-.margin {
-	background: #29fbf8;
-	width: 260px;
-	height: 340px;
-	margin-top: 120px;
-	position: relative;
+.small {
+	width:300px;
+    height:400px;
+    padding:15px;
+box-sizing:border-box;/*定义为盒模型，即宽度包含边框和填充。*/
+background-color: #29fbf8;/*div设置背景颜色，这里的颜色其实就是padding需要的颜色*/
 }
-.padding {
-	background: #FFFEFF;
-	width: 230px;
-	height: 310px;
-	position: absolute;
-	margin-left: 16px;
-	margin-top: -324px;
-	background: #fdfcfd;
+.verySmall {
+	width: 100%;
+	height: 100%;
+	background-color: white;
 }
-.witerMargin {
-	width: 275px;
-	height: 345px;
+.blackPhoto {
+	width: 300px;
+	height: 400px;
 	background: #FEFEFF;
-	margin-left: 40px;
-	margin-top: -380px;
-	position: absolute;
-	box-shadow:2px 2px 5px 0px rgba(0,0,0,0.2);
+    box-shadow:2px 2px 5px 0px rgba(0,0,0,0.2);
+    margin-left: 40px;
+    margin-top: -440px;
 }
 .black {
-	margin-left: 55px;
-	margin-top: -365px;
-	position: absolute;
+	margin: 15px 15px;
 }
 
 .line {
@@ -130,10 +143,7 @@ text-decoration: none;
 	margin-bottom: 35px;
 }
 .aboutText {
-	margin-left: 543px;
-	margin-top: -300px;
-	margin-right: 20%;
-	max-width: 430px;
+	width: 380px;
 	line-height: 30px;
 	font-size: 12px;
 	float: right;
@@ -192,8 +202,9 @@ text-decoration: none;
 /* 3 */
 .skills {
 	background: #fdfcfd;
-	position: relative;
+	width: 800px;
 	height: 750px;
+	margin: 0 auto;
 }
 .skillText {
     margin-top: 35px;
@@ -207,75 +218,34 @@ text-decoration: none;
 	font-family: monospace;
 	font-size: 36px;
 	margin-bottom: 18px;
-	position: absolute;
-	margin-left: 20%;
 }
 .line1 {
-	margin-left: 20%;
 	width: 60px;
 	height: 2px;
 	background: #29fbf8;
-	position: absolute;
-	margin-top: 60px;
-	margin-bottom: 20px;
 }
 .noun {
-	position: absolute;
 	width: 550px;
 	line-height: 30px;
 	font-size: 10px;
-	margin-top: 70px;
-	margin-left: 20%;
 }
 .skillPhotos{
-	height: 600px;
-	
-	margin:0 20%;
+	width: 800px;
+	margin:0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 
 }
-.topSkill{
-	height: 300px;
-	margin-bottom: 18px;
-}
-.bottomSkill{
-	height: 300px;
-	
-}
 .skillPhoto{
-	width: 49%;
+	width: calc(50% - 10px);
 	height: 300px;
 	background-image: url(./skill.jpg);
     background-position: center center;
     background-size: cover;
-    float: left;
     border-radius: 15px;
-}
-.skillPhoto1{
-	width: 49%;
-	height: 300px;
-	background-image: url(./skill.jpg);
-    background-position: center center;
-    background-size: cover;
-    float: right;
-    border-radius: 15px;
-}
-.skillPhoto2{
-	width: 49%;
-	height: 300px;
-	background-image: url(./skill.jpg);
-    background-position: center center;
-    background-size: cover;
-    float: left;
-    border-radius: 15px;
-}
-.skillPhoto3{
-	width: 49%;
-	height: 300px;
-	background-image: url(./skill.jpg);
-    background-position: center center;
-    background-size: cover;
-    float: right;
-    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .mask1{
 	height: 300px;
