@@ -23,41 +23,61 @@ text-decoration: none;
 }
 .background {
 	display: flex;
+	justify-content: space-between;
 	
 }
-.content > .witer {
+.witer {
 	width: 63.5%;
-	float: right;
 	height: 624px;
 	background: #FDFCFD;
 }
-.content > .blue {
+.blue {
 	width: 36.5%;
-	float: left;
 	background: #999;
 	height: 624px;
 	background: #29fbf8;
 }
-.content {
-	width: 100%;
+.logos {
 	display: flex;
-	flex-direction: row;
+	justify-content: space-between;
+	margin-top: -610px;
+}
+.logoicon{
+	text-align: center;
+	font-size: 40px;
+	margin-left: 20px;
+	width: 1em; height: 1em;
+	vertical-align: -0.15em;
+	fill: currentColor;
+}
+.navicon{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	width: 1em; height: 1em;
+	vertical-align: -0.15em;
+	fill: currentColor;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+.content {
+	width: 800px;
+	display: flex;
+    justify-content: space-between;
 	height: 624px;
-	align-items: center;
+	margin: auto;
+	margin-top: -54px;
 }
 .headPhoto {
-	float: right;
+	
 	max-height: 624px;
-    background-image: url(./head.png);
+    
     background-size: cover;
     /*margin-left: 50%;*/
   
 }
 .content > .headText {
-	float: left;
-	margin-left: 20%;
-	flex-direction: column;
-
+	margin-top: 200px;
 }
 .content > .headText > .hello {
 	color: #8A8FA3;
@@ -99,11 +119,11 @@ text-decoration: none;
 .aboutMes {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 140px;
+	margin-top: 100px;
 }
 .aboutMe {
 	width: 800px;
-	height: 500px;
+	height: 400px;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -155,51 +175,34 @@ background-color: #29fbf8;/*div设置背景颜色，这里的颜色其实就是p
 }
 .information {
 	margin-top: 15px;
+	flex-direction: column;
 }
-.infoemation {
-     /* overflow: hidden;*/
-}
+
 .email {
 	font-size: 14px;
-	float: left;
 	border: 1px solid #29fbf8;
 	text-align: center;
-	width: 130px;
+	width: 220px;
 	border-radius: 5px;
 	margin-top: 45px;
 }
-.email span{
-	display: none;
-}
-.email:hover span{
-	display: block;
-	font-size: 14px;
-	text-align: center;
-	background: #29fbf8;
-}
+
 .number {
 	font-size: 14px;
-	width: 130px;
+	width: 220px;
 	border-radius: 5px;
 	margin-right: 150px;
-	float: right;
 	border: 1px solid #29fbf8;
 	text-align: center;
 	margin-top: 45px;
 }
-.number:hover {
-   font-size: 14px;
-}
-.number span{
-	display: none;
-}
-.number:hover span{
-	display: block;
-	font-size: 14px;
-	text-align: center;
-	background: #29fbf8;
-}
+
 /* 3 */
+.skillContents {
+	width: 100%;
+	height: 750px;
+	background: #fdfcfd;
+}
 .skills {
 	background: #fdfcfd;
 	width: 800px;
@@ -207,13 +210,12 @@ background-color: #29fbf8;/*div设置背景颜色，这里的颜色其实就是p
 	margin: 0 auto;
 }
 .skillText {
-    margin-top: 35px;
+    
 	height: 175px;
+	margin-top: 80px;
 }
-.skillContents {
-	margin-top: 35px;
-}
-.skillContents > .skill {
+
+.skill {
 	font-weight: bold;
 	font-family: monospace;
 	font-size: 36px;
@@ -270,6 +272,7 @@ height: 300px;
 .skillContent{
     border: 1px solid red;
     margin-top: -260px;
+    
 }
 .icon{ 
 color: white;
