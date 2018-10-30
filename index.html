@@ -35,7 +35,7 @@
   <div class="content">
     <div class="headText">
      <p class="hello">Hello</p>
-     <p class="name">我 是   魏 扬 乐</p>
+     <p class="name">魏 扬 乐</p>
      <p class="job">前 端 开 发 工 程 师</p>
      <div class="pdf">
       <p>
@@ -67,9 +67,10 @@
     <div class="aboutText">
       <h1 class="aboutMeText">About Me</h1>
       <div class="line"></div>
-      <p>我叫魏扬乐，自学前端半年左右，能根据设计师的设计稿重现整个网页，掌握CSS动画、过渡效果、响应式等常见技术。
-        会使用REM、VW/VH等技术制作适配移动设备的页面。
-      掌握jQuery的常用API，能使用jQuery制作网页、轮播等。</p>
+      <p>前端于我而言，是理性与感性的完美结合，逻辑的精密搭配设计的笃定， 
+诠释一名优秀工程师的必备品质。2017年毕业于武汉职业技术学院。思维灵活发散，强大的自我驱动能力 
+在独立项目开发过程中体现出优秀的新技术学习、问题分析解决能力。
+寻找技术驱动，成长空间用激情与成果证明快速成为团队中流砥柱，is not impossible.</p>
       <div class="information">
         <div class="email" href="#cover">邮箱:weiyangle@qq.com</div>
         <div class="number" href="#cover">手机号码:17600614595</div>
@@ -166,47 +167,34 @@
       </div>
 
      <div class="swiper-container">
-    <div class="parallax-bg" style="background-image:url(http://lorempixel.com/900/600/nightlife/2/)" data-swiper-parallax="-23%"></div>
     <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <div class="title" data-swiper-parallax="-300">Slide 1</div>
-        <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
-        <div class="text" data-swiper-parallax="-100">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
-        </div>
+      <div class="swiper-slide" style="background: url(canvas.png);background-size: cover;">
+          <div class="swiper-slide1-text">zheshi1yi1</div>
       </div>
-      <div class="swiper-slide">
-        <div class="title" data-swiper-parallax="-300" data-swiper-parallax-opacity="0">Slide 2</div>
-        <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
-        <div class="text" data-swiper-parallax="-100">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
-        </div>
+      <div class="swiper-slide" style="background: url(navbar.png);background-size: cover;">
+          <div class="swiper-slide1-text">zheshi1yi1</div>
       </div>
-      <div class="swiper-slide">
-        <div class="title" data-swiper-parallax="-300">Slide 3</div>
-        <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
-        <div class="text" data-swiper-parallax="-100">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
-        </div>
+      <div class="swiper-slide" style="background: url(apple-style-slides.png);background-size: cover;">
+          <div class="swiper-slide1-text">zheshi1yi1</div>
       </div>
     </div>
     <!-- Add Pagination -->
-    <div class="swiper-pagination swiper-pagination-white"></div>
-    <!-- Add Navigation -->
-    <div class="swiper-button-prev swiper-button-white"></div>
-    <div class="swiper-button-next swiper-button-white"></div>
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
   </div>
-
-
-    </div>
-
 </div>
 
 </div>
 <script>        
   var swiper = new Swiper('.swiper-container', {
-      speed: 600,
-      parallax: true,
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
