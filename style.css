@@ -1,15 +1,15 @@
 body {
-margin: 0;
-padding: 0;
-
+	margin: 0;
+	padding: 0;
+	min-width: 1000px;
 }
 * {
-margin: 0;
-padding: 0;
+	margin: 0;
+	padding: 0;
 }
 a{
-color:inherit;
-text-decoration: none;
+	color:inherit;
+	text-decoration: none;
 }
 .clearfix {
 	content: '';
@@ -24,7 +24,6 @@ text-decoration: none;
 .background {
 	display: flex;
 	justify-content: space-between;
-	
 }
 .witer {
 	width: 63.5%;
@@ -33,7 +32,6 @@ text-decoration: none;
 }
 .blue {
 	width: 36.5%;
-	background: #999;
 	height: 624px;
 	background: #29fbf8;
 }
@@ -63,18 +61,15 @@ text-decoration: none;
 .content {
 	width: 800px;
 	display: flex;
-    justify-content: space-between;
+	justify-content: space-between;
 	height: 624px;
 	margin: auto;
 	margin-top: -74px;
 }
 .headPhoto {
-	
 	max-height: 624px;
-    
-    background-size: cover;
-    /*margin-left: 50%;*/
-  
+	background-size: cover;
+	/*margin-left: 50%;*/
 }
 .content > .headText {
 	margin-top: 200px;
@@ -112,7 +107,7 @@ text-decoration: none;
 }
 .content > .headText > .download {
 	font-size: 14px;
-	font-weight: bold;	
+	font-weight: bold;
 }
 
 /* 2 */
@@ -127,17 +122,17 @@ text-decoration: none;
 	margin-left: auto;
 	margin-right: auto;
 
-	
+
 }
 .aboutPohto {
-    float: left;
+	float: left;
 }
 .small {
 	width:300px;
-    height:400px;
-    padding:15px;
-box-sizing:border-box;/*定义为盒模型，即宽度包含边框和填充。*/
-background-color: #29fbf8;/*div设置背景颜色，这里的颜色其实就是padding需要的颜色*/
+	height:400px;
+	padding:15px;
+	box-sizing:border-box;/*定义为盒模型，即宽度包含边框和填充。*/
+	background-color: #29fbf8;/*div设置背景颜色，这里的颜色其实就是padding需要的颜色*/
 }
 .verySmall {
 	width: 100%;
@@ -148,9 +143,9 @@ background-color: #29fbf8;/*div设置背景颜色，这里的颜色其实就是p
 	width: 300px;
 	height: 400px;
 	background: #FEFEFF;
-    box-shadow:2px 2px 5px 0px rgba(0,0,0,0.2);
-    margin-left: 40px;
-    margin-top: -440px;
+	box-shadow:2px 2px 5px 0px rgba(0,0,0,0.2);
+	margin-left: 40px;
+	margin-top: -440px;
 }
 .black {
 	margin: 15px 15px;
@@ -210,7 +205,7 @@ background-color: #29fbf8;/*div设置背景颜色，这里的颜色其实就是p
 	margin: 0 auto;
 }
 .skillText {
-    
+
 	height: 175px;
 	margin-top: 80px;
 }
@@ -244,99 +239,194 @@ background-color: #29fbf8;/*div设置背景颜色，这里的颜色其实就是p
 	width: calc(50% - 10px);
 	height: 300px;
 	background-image: url(./skill.jpg);
-    background-position: center center;
-    background-size: cover;
-    border-radius: 15px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+	background-position: center center;
+	background-size: cover;
+	border-radius: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 .mask1{
 	height: 300px;
 	border-radius: 15px;
-    background: linear-gradient(to right, rgba(110,222,250,0.95) 0%,rgba(103,206,249,0.95) 50%,rgba(103, 204, 247, 0.95) 51%,rgba(57, 169, 243, 0.95) 100%);
+	background: linear-gradient(to right, rgba(110,222,250,0.95) 0%,rgba(103,206,249,0.95) 50%,rgba(103, 204, 247, 0.95) 51%,rgba(57, 169, 243, 0.95) 100%);
 }
 .mask2 {
 	height: 300px;
 	border-radius: 15px;
-    background:linear-gradient(to right, rgba(255,214,94,0.95) 0%,rgba(255,214,94,0.95) 50%,rgba(255,214,94,0.95) 51%,rgba(254,191,4,0.95) 100%);
+	background:linear-gradient(to right, rgba(255,214,94,0.95) 0%,rgba(255,214,94,0.95) 50%,rgba(255,214,94,0.95) 51%,rgba(254,191,4,0.95) 100%);
 }
 .mask3 {
-    height: 300px;
+	height: 300px;
 	border-radius: 15px;
-    background:linear-gradient(to right, rgba(224,97,175,0.95) 0%,rgba(218,101,189,0.95) 50%,rgba(218,101,189,0.95) 51%,rgba(203,104,210,0.95) 100%);
+	background:linear-gradient(to right, rgba(224,97,175,0.95) 0%,rgba(218,101,189,0.95) 50%,rgba(218,101,189,0.95) 51%,rgba(203,104,210,0.95) 100%);
 }
 .mask4 {
-height: 300px;
+	height: 300px;
 	border-radius: 15px;
-    background: linear-gradient(to right, rgba(118,247,246,0.95) 0%,rgba(80,244,242,0.95) 50%,rgba(80,244,242,0.95) 51%,rgba(0,242,238,0.95) 100%);
+	background: linear-gradient(to right, rgba(118,247,246,0.95) 0%,rgba(80,244,242,0.95) 50%,rgba(80,244,242,0.95) 51%,rgba(0,242,238,0.95) 100%);
 }
 .skillContent{
-    border: 1px solid red;
-    margin-top: -260px;
-    
+
+	margin-top: -260px;
+
 }
-.icon{ 
-color: white;
-text-align: center;
-font-size: 40px;
-margin-left: 20px;
-width: 1em; height: 1em;
-       vertical-align: -0.15em;
-       fill: currentColor;
-       margin-bottom: 10px;
- }
+.icon{
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	margin-left: 20px;
+	width: 1em; height: 1em;
+	vertical-align: -0.15em;
+	fill: currentColor;
+	margin-bottom: 10px;
+}
 .skillName{
 	font-weight: bold;
 	font-size: 22px;
 	color: white;
 	margin-left: 20px;
-    margin-bottom: 15px;
-   
-}
-  
+	margin-bottom: 15px;
 
-  /* 第四页 */
-  .works {
-  	width: 800px;
-	height: 750px;
+}
+.skillNameContent {
+
+	line-height: 1.5;
+	width: 90%;
+	margin: 10px auto;
+	color: white;
+}
+
+
+/* 第四页 */
+.works {
+	width: 800px;
+	height: 720px;
 	margin: 0 auto;
-  }
-  .workText {
-  	height: 175px;
+}
+.workText {
+	height: 175px;
 	margin-top: 40px;
-  }
-  .work {
-  	font-weight: bold;
+}
+.work {
+	font-weight: bold;
 	font-family: monospace;
 	font-size: 36px;
 	margin-bottom: 18px;
-  }
-  .workNoun {
-  	width: 550px;
+}
+.workNoun {
+	width: 550px;
 	line-height: 30px;
 	font-size: 10px;
-  }
- .swiper-container {
-      width: 800px;
-      height: 450px;
-    }
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-      /* Center slide text vertically */
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-    background-size: cover;
-    }
+}
+.swiper-container {
+	width: 800px;
+	height: 450px;
+}
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	background-size: cover;
+}
+
+.contacts {
+	width: 100%;
+	background: #fdfcfd;
+}
+.contact {
+	width: 800px;
+
+	margin: 0 auto;
+}
+.contactLogos {
+
+	margin: 0 auto;
+	width: 40px;
+}
+.contactLogo {
+	text-align: center;
+	font-size: 40px;
+	width: 1em; height: 1em;
+	vertical-align: -0.15em;
+	fill: currentColor;
+	margin: 10px 10px;
+	fill: #cbcccd;
+
+}
+.contactLogo1 {
+	text-align: center;
+	font-size: 40px;
+	width: 1em; height: 1em;
+	vertical-align: -0.15em;
+	fill: currentColor;
+
+}
+.contactText {
+	text-align: center;
+	margin: 25px 0;
+	color: #cbcccd;
+}
+.contactIcons {
+	width: 100%;
+
+}
+.contactIcon {
+	width: 180px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 15px auto;
+
+}
+.contactIcon > a:hover{
+	background: #29fbf8;
+	border-radius: 50%;
+	opacity: 0.5;
+
+}
+.footerLine {
+	border: 1px solid #cbcccd;
+	opacity: 0.2;
+	width: 800px;
+	margin: 0 auto;
+}
+.footerTexts {
+	width: 800px;
+
+	margin: 10px auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+.footerText {
+
+	margin: 0 auto;
+	color: #cbcccd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
