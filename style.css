@@ -286,10 +286,8 @@ a{
 	color: white;
 	margin-left: 20px;
 	margin-bottom: 15px;
-
 }
 .skillNameContent {
-
 	line-height: 1.5;
 	width: 90%;
 	margin: 10px auto;
@@ -348,7 +346,6 @@ a{
 }
 .contact {
 	width: 800px;
-
 	margin: 0 auto;
 }
 .contactLogos {
@@ -361,10 +358,8 @@ a{
 	font-size: 40px;
 	width: 1em; height: 1em;
 	vertical-align: -0.15em;
-	fill: currentColor;
 	margin: 10px 10px;
 	fill: #cbcccd;
-
 }
 .contactLogo1 {
 	text-align: center;
@@ -372,7 +367,6 @@ a{
 	width: 1em; height: 1em;
 	vertical-align: -0.15em;
 	fill: currentColor;
-
 }
 .contactText {
 	text-align: center;
@@ -381,7 +375,6 @@ a{
 }
 .contactIcons {
 	width: 100%;
-
 }
 .contactIcon {
 	width: 180px;
@@ -389,13 +382,11 @@ a{
 	justify-content: flex-start;
 	align-items: center;
 	margin: 15px auto;
-
 }
 .contactIcon > a:hover{
 	background: #29fbf8;
 	border-radius: 50%;
 	opacity: 0.5;
-
 }
 .footerLine {
 	border: 1px solid #cbcccd;
@@ -405,7 +396,6 @@ a{
 }
 .footerTexts {
 	width: 800px;
-
 	margin: 10px auto;
 	display: flex;
 	justify-content: space-between;
@@ -413,7 +403,6 @@ a{
 	margin-bottom: 60px;
 }
 .footerText {
-
 	margin: 0 auto;
 	color: #cbcccd;
 }
